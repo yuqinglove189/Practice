@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>css元素的显示模式</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background: red;
+        }
+        span{
+            background: blue;
+        }
+        img{
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+<body>
+<!--
+在html中html将所有的标签分为两类，分别是容器级和文本级，在css中css也将所有标签分为两类，分别是块级元素和行内元素
+
+1.什么是块级元素，什么是行内元素
+块级元素会独占一行
+行内元素不会独占一行
+
+容器级标签：div h ul ol dl li ...
+文本级标签：span p buis strong em ins del..
+块级元素：div h ul ol dl li ...
+行内元素：span p buis strong em ins del ...
+
+2.块级元素和行内元素的区别
+2.1 块级元素
+ 独占一行
+ 如果没有设置宽度，那么默认和父元素一样宽
+ 如果设置了宽高，那么就按设置的显示
+
+2.2 行内元素
+ 不会独占一行
+ 如果没有设置宽度，那么默认和内容一样宽
+ 行内元素是不能设置宽度和高度的
+
+2.3 行内块级元素
+为了能够让元素既能够不独占一行，有可以设置宽度和高度，那么就出现了行内会计元素
+
+
+-->
+
+<div>我是div</div>
+<p>我是段落</p>
+<h1>我是标题</h1>
+<hr>
+<span>我是span</span>
+<b>我是加粗</b>
+<strong>我是强调</strong>
+<hr>
+<img src="4.jpg" alt="" height="100px">
+<img src="4.jpg" alt="" height="100px">
+
+
+</body>
+</html>
